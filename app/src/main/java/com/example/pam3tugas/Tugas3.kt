@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 
@@ -30,5 +31,15 @@ fun KartuInfo(
     fontNama: FontFamily? = null,
     beratNama: FontWeight = FontWeight.Bold
 ){
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(all = dimensionResource(R.dimen.card_margin)),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_radius)),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(warnaKartu)
+        )
+    ){
 
+    }
 }
