@@ -163,5 +163,11 @@ fun Tugas3(modifier: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.weight(1f))
 
+        Text(
+            text = stringResource(id = R.string.copy),
+            fontSize = dimensionResource(id = R.dimen.text_footer).value.sp,
+            color = colorResource(id = R.color.text_primary)
+        )
+
     }
 }
