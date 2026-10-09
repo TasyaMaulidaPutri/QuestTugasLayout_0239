@@ -1,6 +1,7 @@
 package com.example.pam3tugas
 
 import androidx.annotation.DimenRes
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -17,3 +18,17 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun spResource(@DimenRes id: Int): TextUnit =
     with(LocalDensity.current) { dimensionResource(id).toSp() }
+
+@Composable
+fun KartuInfo(
+    @StringRes nama: Int,
+    @StringRes alamat: Int,
+    @ColorRes warnaKartu: Int,
+    @ColorRes warnaAlamat: Int,
+    modifier: Modifier = Modifier,
+    @StringRes telp: Int? = null,
+    fontNama: FontFamily? = null,
+    beratNama: FontWeight = FontWeight.Bold
+){
+
+}
