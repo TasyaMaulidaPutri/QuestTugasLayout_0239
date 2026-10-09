@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="screen_padding">16dp</dimen>
+    <dimen name="header_top">48dp</dimen>
+    <dimen name="header_bottom">24dp</dimen>
     <dimen name="card_spacing">10dp</dimen>
 
+
+
     <dimen name="text_gap">12dp</dimen>
+
 
 
 </resources>
