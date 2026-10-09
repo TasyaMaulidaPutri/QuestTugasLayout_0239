@@ -89,6 +89,11 @@ fun KartuMahasiswa(
                 )
 
             }
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.logo_umy),
+                modifier = Modifier.size(dimensionResource(id = R.dimen.logo_size))
+            )
         }
     }
 }
