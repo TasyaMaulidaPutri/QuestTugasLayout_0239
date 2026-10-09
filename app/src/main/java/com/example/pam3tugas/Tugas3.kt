@@ -8,6 +8,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -129,5 +130,7 @@ fun Tugas3(modifier: Modifier = Modifier){
             textAlign = TextAlign.Center,
             color = colorResource(id = R.color.text_primary)
         )
+        Spacer(modifier = Modifier.height(dimensionResource(id = R.dimen.header_bottom)))
+
     }
 }
