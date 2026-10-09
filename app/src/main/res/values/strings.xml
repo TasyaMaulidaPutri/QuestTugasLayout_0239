@@ -2,10 +2,8 @@
     <string name="app_name">pam3tugas</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
-    <string name="nama">Tasya Maulida Putri</string>
-    <string name="alamat">Bantul, Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
 
-    <string name="nama_1">Basna Yanti Djakiman</string>
-    <string name="alamat_1">Gamping, Sleman</string>
+    <string name="nama_1">Tasya Maulida Putri</string>
+    <string name="alamat_1">Bantul, DIY</string>
 </resources>
