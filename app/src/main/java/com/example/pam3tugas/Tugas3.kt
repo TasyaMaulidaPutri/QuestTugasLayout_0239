@@ -75,6 +75,14 @@ fun KartuMahasiswa(
                     fontFamily = if (namaMiring) FontFamily.Cursive else FontFamily.Default,
                     color = colorResource(id = R.color.text_white)
                 )
+                if (telp != null) {
+                    Text(
+                        text = stringResource(id = telp),
+                        fontSize = dimensionResource(id = R.dimen.text_detail).value.sp,
+                        color = colorResource(id = R.color.text_cyan)
+                    )
+                }
+
             }
         }
     }
