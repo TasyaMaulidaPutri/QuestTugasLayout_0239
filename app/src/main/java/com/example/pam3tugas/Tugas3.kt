@@ -29,5 +29,15 @@ fun KartuMahasiswa(
     telp: Int? = null,
     namaMiring: Boolean = false
 ){
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = dimensionResource(id = R.dimen.card_spacing) / 2),
+        shape = RoundedCornerShape(dimensionResource(id = R.dimen.card_radius)),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = warnaKartu)
+        )
+    ){
 
+    }
 }
