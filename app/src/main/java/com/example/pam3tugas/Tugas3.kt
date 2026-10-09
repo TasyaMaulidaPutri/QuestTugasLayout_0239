@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,6 +26,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun KartuMahasiswa(
@@ -64,7 +66,15 @@ fun KartuMahasiswa(
                     .padding(horizontal = dimensionResource(id = R.dimen.text_gap)),
                 verticalArrangement = Arrangement.Center
             ){
-
+                Text(
+                    text = stringResource(id = nama),
+                    fontSize = dimensionResource(
+                        id = if (namaMiring) R.dimen.text_name_script else R.dimen.text_name
+                    ).value.sp,
+                    fontWeight = if (namaMiring) FontWeight.Normal else FontWeight.Bold,
+                    fontFamily = if (namaMiring) FontFamily.Cursive else FontFamily.Default,
+                    color = colorResource(id = R.color.text_white)
+                )
             }
         }
     }
