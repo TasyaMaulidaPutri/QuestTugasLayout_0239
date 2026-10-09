@@ -4,6 +4,8 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -56,6 +58,14 @@ fun KartuMahasiswa(
                 contentDescription = stringResource(id = R.string.logo_umy),
                 modifier = Modifier.size(dimensionResource(id = R.dimen.logo_size))
             )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(id = R.dimen.text_gap)),
+                verticalArrangement = Arrangement.Center
+            ){
+
+            }
         }
     }
 }
