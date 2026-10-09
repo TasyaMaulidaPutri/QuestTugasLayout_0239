@@ -161,6 +161,7 @@ fun Tugas3(modifier: Modifier = Modifier){
             warnaKartu = R.color.card_green,
             warnaAlamat = R.color.text_white
         )
+        Spacer(modifier = Modifier.weight(1f))
 
     }
 }
