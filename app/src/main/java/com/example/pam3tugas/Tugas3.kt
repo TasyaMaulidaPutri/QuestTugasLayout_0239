@@ -38,6 +38,16 @@ fun KartuMahasiswa(
             containerColor = colorResource(id = warnaKartu)
         )
     ){
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(
+                    horizontal = dimensionResource(id = R.dimen.card_padding_h),
+                    vertical = dimensionResource(id = R.dimen.card_padding_v)
+                ),
+            verticalAlignment = Alignment.CenterVertically
+        ){
 
+        }
     }
 }
