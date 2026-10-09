@@ -147,6 +147,13 @@ fun Tugas3(modifier: Modifier = Modifier){
             warnaKartu = R.color.card_purple,
             warnaAlamat = R.color.text_yellow
         )
+        KartuMahasiswa(
+            nama = R.string.nama_3,
+            telp = R.string.telp_3,
+            alamat = R.string.alamat_3,
+            warnaKartu = R.color.card_blue,
+            warnaAlamat = R.color.text_white
+        )
 
     }
 }
