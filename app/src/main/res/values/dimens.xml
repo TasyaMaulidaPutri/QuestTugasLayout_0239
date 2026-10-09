@@ -7,9 +7,9 @@
     <dimen name="card_radius">12dp</dimen>
     <dimen name="card_padding_h">12dp</dimen>
     <dimen name="card_padding_v">10dp</dimen>
-
+    <dimen name="logo_size">56dp</dimen>
     <dimen name="text_gap">12dp</dimen>
-
+    <dimen name="footer_bottom">12dp</dimen>
 
 
 </resources>
