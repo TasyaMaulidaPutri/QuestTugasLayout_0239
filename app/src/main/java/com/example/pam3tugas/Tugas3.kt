@@ -97,3 +97,8 @@ fun KartuMahasiswa(
         }
     }
 }
+
+@Composable
+fun Tugas3(modifier: Modifier = Modifier){
+
+}
