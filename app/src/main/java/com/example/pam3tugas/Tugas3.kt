@@ -122,5 +122,12 @@ fun Tugas3(modifier: Modifier = Modifier){
             textAlign = TextAlign.Center,
             color = colorResource(id = R.color.text_primary)
         )
+        Text(
+            text = stringResource(id = R.string.univ),
+            fontSize = dimensionResource(id = R.dimen.text_subtitle).value.sp,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+            color = colorResource(id = R.color.text_primary)
+        )
     }
 }
