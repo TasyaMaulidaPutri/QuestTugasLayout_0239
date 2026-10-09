@@ -17,4 +17,5 @@
     <dimen name="text_name_script">20sp</dimen>
     <dimen name="text_detail">12sp</dimen>
     <dimen name="text_footer">11sp</dimen>
+    <dimen name="card_margin_v">5dp</dimen>
 </resources>
