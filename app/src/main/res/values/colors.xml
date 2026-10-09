@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_screen">#FAF8FF</color>
+    <color name="text_primary">#1C1B1F</color>
+
+    <color name="card_gray">#5F5D5B</color>
+    <color name="card_purple">#6F42C1</color>
+    <color name="card_blue">#0000FF</color>
+    <color name="card_green">#006400</color>
+
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_yellow">#FFFF00</color>
+    <color name="text_cyan">#00FFFF</color>
+</resources>
